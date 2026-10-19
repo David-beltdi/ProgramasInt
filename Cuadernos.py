@@ -1,7 +1,7 @@
 print("Creación de factura de compra de cuadernos")
-
+print("__________________________________________________________________________")
 print("A continuación deberá ingresar la información requerida acerca de su compra de cuadernos iguales")
-tienda=input("¿Cuál es el nombre de la tienda donde se realizó la compra?")
+tienda="Papeleria Chris & Jonhs"
 marca=input("¿Cuál es la marca de los cuadernos que compró?(Ej: Norma)")
 codigo=input("¿Cuál es el código del producto?")
 diseño=input("¿Cuál es el diseño de los cuadernos?(Ej: Azul con dibujos animados)")
@@ -11,7 +11,7 @@ tamano=input("¿Cuál es el tamaño de los cuadernos?(Ej: Grande)")
 cantidad=int(input("¿Cuántos cuadernos compró?"))
 precio_un=float(input("¿Cuál es el precio unitario de los cuadernos?"))
 cant_hojas=int(input("¿Cuántas hojas tienen los cuaderno?"))
-
+print("__________________________________________________________________________")
 print("Esta es la factura de la compra de cuadernos:")
 print("Tienda: ")
 print(tienda)
