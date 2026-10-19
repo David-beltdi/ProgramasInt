@@ -1,6 +1,7 @@
 print("Creación de factura de compra de cuadernos")
 print("__________________________________________________________________________")
 print("A continuación deberá ingresar la información requerida acerca de su compra de cuadernos iguales")
+
 tienda="Papeleria Chris & Jonhs"
 marca=input("¿Cuál es la marca de los cuadernos que compró?(Ej: Norma)")
 codigo=input("¿Cuál es el código del producto?")

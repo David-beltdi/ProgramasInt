@@ -1,6 +1,7 @@
 print("Datos de un viaje en carro")
 print("__________________________________________________________________________")
 print("A continuación deberá ingresar la información requerida acerca de su viaje en carro")
+
 modelo_carro=input("¿Cuál es el modelo del carro?: ")
 placa=input("¿Cuál es la placa del carro?: ")
 origen=input("¿Cuál es el lugar de origen del viaje?: ")
