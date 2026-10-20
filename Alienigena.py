@@ -4,4 +4,20 @@ print("La siguiente información se requiere para conocer los detalles del alien
 nombre_alien=input("Nombre del alienígena: ")
 planeta_origen="Zirm-9"
 galaxia_origen=input("Galaxia de origen del alienígena: ")
-
+color_piel=input("Color de la piel del alienígena: ")
+num_ojos=int(input("Número de ojos del alienígena: "))
+num_tentaculos=int(input("Número de tentáculos del alienígena: "))
+antenas=int(input("Cantidad de antenas del alienígena: "))
+peso=float(input("Peso estimado del alienígena en kg: "))
+print("__________________________________________________________________________")
+print("Esta es la información del alienígena detectado:")
+print("Nombre :", nombre_alien)
+print("Planeta de origen :", planeta_origen)
+print("Galaxia de origen :", galaxia_origen)
+print("Color de la piel :", color_piel)
+print("Número de ojos :", num_ojos)
+print("Número de tentáculos :", num_tentaculos)
+print("Cantidad de antenas :", antenas)
+extremidades=num_tentaculos+antenas
+print("Cantidad de extremidades :", extremidades)
+print("Peso estimado :", peso, "kg")
