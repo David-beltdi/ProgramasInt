@@ -1,6 +1,6 @@
 print("Datos de un viaje en carro")
 print("__________________________________________________________________________")
-print("A continuación deberá ingresar la información requerida acerca de su viaje en carro")
+print("La siguiente información se requiere para conocer los detalles del viaje en carro que realizó")
 
 modelo_carro=input("¿Cuál es el modelo del carro?: ")
 placa=input("¿Cuál es la placa del carro?: ")
@@ -34,10 +34,6 @@ print("Costo total de todos los peajes pagados: ")
 print(total_peajes)
 print("Velocidad estimada: ")
 print(vel_estimada)
-if vel_estimada > limite_velkm:
-    print("¡Atención! La velocidad estimada excede el límite de velocidad.")
-else:
-    print("La velocidad estimada está dentro del límite de velocidad.")
 print("Distancia del viaje: ")
 print(distancia)
 tiempo_horas=distancia/vel_estimada

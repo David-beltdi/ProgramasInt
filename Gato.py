@@ -1,6 +1,6 @@
 print("Información de un gato")
 print("__________________________________________________________________________")
-print("A continuación deberá ingresar la información requerida acerca de su gato")
+print("La siguiente información se requiere para conocer los detalles del gato")
 
 nombre_gato=input("¿Cuál es el nombre del gato?: ")
 raza=input("¿Cuál es la raza del gato?: ")
@@ -22,12 +22,6 @@ print("Edad del gato: ")
 print(edad_gato)
 print("Peso del gato: ")
 print(peso_gato)
-if peso_gato < peso_min:
-    print("¡Atención! El gato está por debajo del peso saludable.")
-if peso_gato > peso_max:
-    print("¡Atención! El gato está por encima del peso saludable.")
-else:
-    print("El gato tiene un peso saludable.")
 print("Color del pelaje: ")
 print(color_pelaje)
 print("Color de los ojos: ")
