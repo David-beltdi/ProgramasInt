@@ -1,5 +1,6 @@
+print( )
 print("Datos de un viaje en carro")
-print("__________________________________________________________________________")
+print( )
 print("La siguiente información se requiere para conocer los detalles del viaje en carro que realizó")
 
 modelo_carro=input("¿Cuál es el modelo del carro?: ")
@@ -12,8 +13,7 @@ costo_peaje=float(input("¿Cuál es el costo de cada peaje?: "))
 vel_estimada=int(input("¿Cuál es la velocidad promedio del viaje en km/h?: "))
 limite_velkm=80
 distancia=int(input("¿Cuál es la distancia del viaje en km?: "))
-
-print("__________________________________________________________________________")
+print( )
 print("Esta es la información del viaje en carro:")
 print("Modelo del carro: ")
 print(modelo_carro)
