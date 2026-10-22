@@ -3,7 +3,7 @@ print("_________________________________________________________________________
 print("La siguiente información pertenecía al almanaque perdido del Loco Dave")
 nombre_planta=input("Nombre de la planta: ")
 coste_solar=int(input("Coste solar de la planta: "))
-tipo_ataque=input("Tipo de ataque de la planta (Guisantes de fuego): ")
+tipo_ataque=input("Tipo de ataque de la planta (EJ: Guisantes de fuego): ")
 dano=float(input("Cantidad de daño que causa la planta: "))
 pts_vida=int(input("Cantidad de puntos de vida de la planta: "))
 alcance=float(input("Alcance del ataque de la planta en metros: "))
