@@ -1,6 +1,6 @@
 print("Poción creada con éxito!")
 print("__________________________________________________________________________")
-print("Esta es la información que se necesita guardar sobre una poción")
+print("Se necesita guardar sobre la poción creada")
 nombre_pocion=input("¿Cuál es el nombre de la poción?: ")
 color_humo=input("¿Cuál es el color del humo de la poción?: ")
 hechizo=input("¿Cuál es el hechizo de activación que tiene la poción?: ")
